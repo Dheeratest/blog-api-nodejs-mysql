@@ -1,0 +1,397 @@
+*,body{
+	margin:0;
+	padding:0;
+}
+
+
+.header-top{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding:10px 40px;
+	background: #673ab7;
+}
+
+.bg-blue{background: #25215e!important}
+
+.t-or{
+	color: #ff5722
+}
+
+.logo h2{
+	color: white
+}
+
+input[type='text']:focus{
+	 outline: none;
+	 box-shadow: none;
+	 border-color:#ff5722;
+}
+
+.login {justify-content: flex-end;}
+.d-center{
+	display: flex;
+    align-items: center;
+}
+
+.login a img{
+	width: 19px;
+	margin: 0px 0px 0px 20px;
+}
+.nav-link{
+	color:#fbfbfbd1!important;
+	font-family: 'Poppins', sans-serif;
+	font-weight:400!important;
+}
+
+.ml-130{margin-left: 130px;}
+
+.owl-carousel img{
+	width: 100%;
+	height: 500px;
+}
+
+.owl-next{
+	font-size: 50px!important;
+    position: absolute;
+    top: 34%;
+    right: 10px;
+    z-index: 99999;
+    color: white!important;
+}
+
+.owl-next:after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #25215e5c;
+    right: -10px;
+    margin-top: 25px;
+    z-index: -1;
+}
+
+
+.owl-prev{
+	font-size: 50px!important;
+    position: absolute;
+    top: 34%;
+    left: 10px;
+    z-index: 99999;
+    color: white!important;
+}
+
+.owl-prev:after{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #25215e5c;
+    left: -10px;
+    margin-top: 25px;
+    z-index: -1;
+}
+
+button:focus{
+	outline: none!important;
+
+}
+
+
+
+.owl-dot{
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 50px;
+    border: 1px solid #25215e!important;
+}
+
+.owl-dot.active{
+	background: #25215e!important;
+	border: 1px solid #25215e!important;
+}
+
+.owl-dot span{
+	background: red!important;
+	width: 10px;
+	height: 10px;
+}
+
+.owl-dots{
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+}
+
+.heading{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/*.main-grid-part{
+	width: 100%;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows: 100px 100px;
+}
+
+.first{
+	grid-template-rows: 200px;
+}
+
+.main-grid-child{
+	border:1px solid red;
+}*/
+
+
+/*footer*/
+footer{
+	margin-top: 40px;
+	background-color: #25215e!important;
+	padding:20px 10px;
+}
+
+.footer-heading h3{
+	color: #fbfbfbd1;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.footer-heading ul{
+	list-style: none;
+	display: grid;
+}
+
+.footer-heading ul a{
+	color: #ffffff9c;
+	transition: 0.3s all;
+}
+
+.footer-heading ul a:hover{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.copy-right{
+	padding: 10px 10px;
+	color: white;
+	background-color: #1f1c54;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+.product-heading{
+	font-family: 'Poppins', sans-serif;
+	box-shadow: 0px 0px 10px #2c215e1f;
+    padding: 1px 16px;
+}
+
+.product-main{
+	background: white;
+	padding:10px 15px;
+	box-shadow: 0px 0px 10px #928b8b14;
+}
+
+.product-images{
+	width:100%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	max-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.product-images img{
+     height: 100%;
+}
+
+.product-info{
+	margin-top: 10px;
+	display:block;
+	width: 100%;
+}
+
+.product-name{
+	color:  #25215e;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.product-review{
+	font-size: 16px;
+	float: right;
+}
+
+.product-price{
+	color:  #767582;
+	font-size: 17px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.value-color{
+	color: #ff5722;
+}
+
+.product-eve{
+	/*display: block;*/
+
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product-add{
+	color: #ff5722;
+	padding:2px 10px;
+	font-family: 'Poppins', sans-serif;
+	border:1px solid #ff5722;
+	color: #ff5722;
+	background:white;
+	font-size: 16px;
+	border-radius: 50px;
+	float:left;
+}
+
+.product-buy{
+  background-color: #ff5722;
+  color: white;
+  padding:3px 10px;
+  border:none;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  border-radius: 50px;
+  font-weight:300;
+
+}
+
+.product-main:hover a div img{transform: rotateY(180deg)}
+
+/*product-details-main*/
+.product-details-main{
+	width: 100%;
+	background:white;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.product-details-main img{
+	max-width: 75%;
+	width: 100%;
+}
+
+.product-img-list{
+	width: 100%;
+	margin-top: 40px;	
+	padding-bottom: 30px;
+	overflow-x:  scroll;
+}
+
+.product-img-list img{
+	max-width: 13%;
+    box-shadow: 0px 0px 10px #673ab71f;
+    padding: 2px;
+}
+
+.product-details{
+	padding:10px 10px;
+}
+
+.product-details h2{
+    font-weight:400;
+    font-size: 25px;
+}
+
+.product-details h3{
+	font-size: 23px;
+    font-weight: 700;
+}
+
+.product-details-p{
+	width: 50%;
+	margin-top: 20px;
+}
+
+.product-size-span{
+	padding-left: 100px;
+}
+
+.product-size-span select{
+	width: 150px;
+    border: 1px solid #e2e1e1;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Barlow', sans-serif;*/
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.product-info-size span{
+	font-size: 18px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+select:focus{
+	outline: none;
+	border: 1px solid #e2e1e1;
+	box-shadow: none;
+}
+
+p{
+	font-family: 'Barlow', sans-serif;
+}
+
+.product-info-size{
+	display: flex;
+}
+
+
+.product-color-span{
+   padding-left: 87px
+}
+
+
+input[type="radio"]{
+	appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+  /*  line-height: 20px;*/
+    text-align: center;
+    border-radius: 0px;
+    cursor: pointer;
+    border-radius:50%;
+	}
+
+
+input[type="radio"]:checked:after{
+    	content: "\f00c";
+    	font-family: "font Awesome 5 Free";
+    	font-weight: 900;
+    	color: white;
+    	font-size: 10px;
+    }
+
+
+input[type="radio"]:focus{
+    	outline: none;
+    }
+
+    #black{background: black;}
+    #red{background: red}
+    #green{background:green }
+    #blue{background: blue}
+    #pink{background: pink}
